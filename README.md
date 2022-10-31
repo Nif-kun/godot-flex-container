@@ -1,4 +1,4 @@
-# FlexContainer <img align="center" alt="icon" width="40px" src="https://raw.githubusercontent.com/Nif-kun/godot-flex-container-plugin/3e88a5e90b44687419c85fdd232bb3fa3d8e1509/res/icon.svg" />
+# FlexContainer <img align="center" alt="icon" width="40px" src="https://github.com/Nif-kun/godot-flex-container/blob/main/addons/FlexContainer/res/icon.svg" />
 ### A simple flex container plugin for <a href="https://godotengine.org">Godot</a>.
  
 * <a href="#installation">Installation</a></li>
