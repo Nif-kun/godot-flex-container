@@ -36,7 +36,7 @@ Disable Min Size | boolean          | it sets the `rect_min_size` of children to
 
 
 ## <a name="alternatives">Alternatives</a>
-* I suggest using <a href="https://github.com/gilzoide/godot-dockable-container">DockableContainer</a> for a more cleaner and complex alternative. It does what FlexContainer does but more! Worth a try.
+* I suggest using <a href="https://github.com/gilzoide/godot-dockable-container">DockableContainer</a> for a more cleaner and flexible alternative. It does what FlexContainer does but more! Worth a try.
 
 
 ## <a name="issues">Issues</a>
