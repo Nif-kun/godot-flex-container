@@ -4,7 +4,8 @@
 * <a href="#installation">Installation</a></li>
 * <a href="#usage">Usage</a></li>
 * <a href="#properties">Properties</a></li>
-* <a href="#limitations">Limitations</a></li>
+* <a href="#alternatives">Alternatives</a></li>
+* <a href="#issues">Issues</a></li>
 
 
 ## <a name="installation">Installation</a>
@@ -34,7 +35,11 @@ Limit Visible    | boolean          | it hides children that goes beyond the con
 Disable Min Size | boolean          | it sets the `rect_min_size` of children to `Vector2.ZERO`. This is currently the default as the container can't handle `rect_min_size` of children.
 
 
-## <a name="Issues">Limitations</a>
+## <a name="alternatives">Alternatives</a>
+* I suggest using <a href="https://github.com/gilzoide/godot-dockable-container">DockableContainer</a> for a more cleaner and complex alternative. It does what FlexContainer does but more! Worth a try.
+
+
+## <a name="issues">Issues</a>
 * Currently has no way to properly handle `rect_min_size` of chilren.
 * Adding non `Control` type nodes may cause errors or even a crash. Bypass by encapsulating it inside a control type node.
 * Resizing isn't fully accurate which causes jitter and a pixel or two of misalignment. *It's annoying*.
