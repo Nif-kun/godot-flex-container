@@ -42,7 +42,7 @@ Disable Min Size | boolean          | it sets the `rect_min_size` of children to
 ## <a name="issues">Issues</a>
 * Currently has no way to properly handle `rect_min_size` of chilren.
 * Adding non `Control` type nodes may cause errors or even a crash. Bypass by encapsulating it inside a control type node.
-* Resizing isn't fully accurate which causes jitter and a pixel or two of misalignment. *It's annoying*.
+* Resizing isn't fully accurate which may cause some jitter and a pixel or two of misalignment. *It's annoying*.
 
 **Said issues may be fixed in the future updates. However, if you know a way to fix it, do open up an issue or a pull request. Your contribution would be greatly apprciated**
 
